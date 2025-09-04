@@ -2,19 +2,19 @@ import React, { useState } from 'react';
 import './App.css';
 
 const certificados = [
-  { name: 'Certificado en Programación Básica', file: '1bd0566d-1f2f-4b9e-a27c-a48dcf0ed41e_certificado.pdf', icon: '💻' },
-  { name: 'Certificado en Desarrollo Web', file: '25260557-5ad1-48e8-9292-c47cb4f0592a_certificado.pdf', icon: '🌐' },
-  { name: 'Certificado en Herramientas Digitales', file: '25f74ecd-7bc6-4beb-a909-7d9cfd9dcfa6_certificado.pdf', icon: '🛠️' },
-  { name: 'Certificado en Edición de Video', file: '29a60607-51f2-4821-b99a-421dbe0994c4_certificado.pdf', icon: '🎬' },
-  { name: 'Certificado en Ofimática', file: '3813db51-3e9d-45d8-a5ab-da9958aedbfe_certificado.pdf', icon: '📊' },
-  { name: 'Certificado en Seguridad Informática', file: '417bdd28-4a62-4748-8f54-339939e82d16_certificado.pdf', icon: '🔒' },
-  { name: 'Certificado en Bases de Datos', file: '506332f7-0844-410f-8e55-29ff9f5131ce_certificado.pdf', icon: '🗄️' },
-  { name: 'Certificado en Redes', file: '7961db43-1851-4069-85e1-24b6695be9d6_certificado.pdf', icon: '🌐' },
-  { name: 'Certificado en Cloud Computing', file: '7d9a4af1-49b3-4392-8de9-bcbb0c18d6dd_certificado (1).pdf', icon: '☁️' },
-  { name: 'Certificado Coursera: Desarrollo Web', file: 'Coursera KXVW4D27G45K.pdf', icon: '🎓' },
-  { name: 'Certificado en Python', file: 'fb10fc95-13ec-406e-8f93-6dae9e986f09_certificado.pdf', icon: '🐍' },
-  { name: 'Certificado en JavaScript', file: 'fede199b-3b0d-4216-9859-8163eb7da31b_certificado.pdf', icon: '⚡' },
-  { name: 'Logros Microsoft Learn', file: 'Logros - olverarodriguezcesar-5186 _ Microsoft Learn (1).pdf', icon: '📱' },
+  { name: 'Certificado en Programación Básica', file: '/CV-de-Ces/diplomas/1bd0566d-1f2f-4b9e-a27c-a48dcf0ed41e_certificado.pdf', icon: '💻' },
+  { name: 'Certificado en Desarrollo Web', file: '/CV-de-Ces/diplomas/25260557-5ad1-48e8-9292-c47cb4f0592a_certificado.pdf', icon: '🌐' },
+  { name: 'Certificado en Herramientas Digitales', file: '/CV-de-Ces/diplomas/25f74ecd-7bc6-4beb-a909-7d9cfd9dcfa6_certificado.pdf', icon: '🛠️' },
+  { name: 'Certificado en Edición de Video', file: '/CV-de-Ces/diplomas/29a60607-51f2-4821-b99a-421dbe0994c4_certificado.pdf', icon: '🎬' },
+  { name: 'Certificado en Ofimática', file: '/CV-de-Ces/diplomas/3813db51-3e9d-45d8-a5ab-da9958aedbfe_certificado.pdf', icon: '📊' },
+  { name: 'Certificado en Seguridad Informática', file: '/CV-de-Ces/diplomas/417bdd28-4a62-4748-8f54-339939e82d16_certificado.pdf', icon: '🔒' },
+  { name: 'Certificado en Bases de Datos', file: '/CV-de-Ces/diplomas/506332f7-0844-410f-8e55-29ff9f5131ce_certificado.pdf', icon: '🗄️' },
+  { name: 'Certificado en Redes', file: '/CV-de-Ces/diplomas/7961db43-1851-4069-85e1-24b6695be9d6_certificado.pdf', icon: '🌐' },
+  { name: 'Certificado en Cloud Computing', file: '/CV-de-Ces/diplomas/7d9a4af1-49b3-4392-8de9-bcbb0c18d6dd_certificado (1).pdf', icon: '☁️' },
+  { name: 'Certificado Coursera: Desarrollo Web', file: '/CV-de-Ces/diplomas/Coursera KXVW4D27G45K.pdf', icon: '🎓' },
+  { name: 'Certificado en Python', file: '/CV-de-Ces/diplomas/fb10fc95-13ec-406e-8f93-6dae9e986f09_certificado.pdf', icon: '🐍' },
+  { name: 'Certificado en JavaScript', file: '/CV-de-Ces/diplomas/fede199b-3b0d-4216-9859-8163eb7da31b_certificado.pdf', icon: '⚡' },
+  { name: 'Logros Microsoft Learn', file: '/CV-de-Ces/diplomas/Logros - olverarodriguezcesar-5186 _ Microsoft Learn (1).pdf', icon: '📱' },
 ];
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
       <div className={`container${darkMode ? ' dark' : ''}`}>
         <header className="profile-header enhanced-header animate-header">
           <div className="photo-wrapper">
-            <img src="src/foto/foto_ces.jpeg" alt="César Olvera Rodríguez" className="profile-photo" />
+            <img src="/CV-de-Ces/foto/foto_ces.jpeg" alt="César Olvera Rodríguez" className="profile-photo" />
           </div>
           <div className="header-details">
             <h1>César Olvera Rodríguez</h1>
