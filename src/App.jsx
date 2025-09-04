@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 import './App.css';
 
 const certificados = [
-  { name: 'Fundamentos de Programación', file: 'diplomas/1bd0566d-1f2f-4b9e-a27c-a48dcf0ed41e_certificado.pdf', icon: '⌨️' },
-  { name: 'Desarrollo Web Frontend', file: 'diplomas/25260557-5ad1-48e8-9292-c47cb4f0592a_certificado.pdf', icon: '🎨' },
-  { name: 'Herramientas Digitales Avanzadas', file: 'diplomas/25f74ecd-7bc6-4beb-a909-7d9cfd9dcfa6_certificado.pdf', icon: '🛠️' },
-  { name: 'Microsoft Office Specialist', file: 'diplomas/3813db51-3e9d-45d8-a5ab-da9958aedbfe_certificado.pdf', icon: '📊' },
-  { name: 'Ciberseguridad y Ethical Hacking', file: 'diplomas/417bdd28-4a62-4748-8f54-339939e82d16_certificado.pdf', icon: '🛡️' },
-  { name: 'Gestión de Bases de Datos SQL', file: 'diplomas/506332f7-0844-410f-8e55-29ff9f5131ce_certificado.pdf', icon: '🗃️' },
-  { name: 'Redes y Telecomunicaciones', file: 'diplomas/7961db43-1851-4069-85e1-24b6695be9d6_certificado.pdf', icon: '📡' },
-  { name: 'Cloud Computing y AWS', file: 'diplomas/7d9a4af1-49b3-4392-8de9-bcbb0c18d6dd_certificado (1).pdf', icon: '☁️' },
-  { name: 'Coursera: Desarrollo Web Full Stack', file: 'diplomas/Coursera KXVW4D27G45K.pdf', icon: '🎓' },
-  { name: 'Python y Análisis de Datos', file: 'diplomas/fb10fc95-13ec-406e-8f93-6dae9e986f09_certificado.pdf', icon: '🐍' },
-  { name: 'JavaScript y ES6+', file: 'diplomas/fede199b-3b0d-4216-9859-8163eb7da31b_certificado.pdf', icon: '💫' },
-  { name: 'Microsoft Azure Fundamentals', file: 'diplomas/Logros - olverarodriguezcesar-5186 _ Microsoft Learn (1).pdf', icon: '☁️' },
+  { name: 'Programación Básica', file: 'diplomas/1bd0566d-1f2f-4b9e-a27c-a48dcf0ed41e_certificado.pdf', icon: '💻' },
+  { name: 'Frontend con JavaScript', file: 'diplomas/25260557-5ad1-48e8-9292-c47cb4f0592a_certificado.pdf', icon: '🎨' },
+  { name: 'Herramientas Informáticas', file: 'diplomas/25f74ecd-7bc6-4beb-a909-7d9cfd9dcfa6_certificado.pdf', icon: '🛠️' },
+  { name: 'Ofimática Profesional', file: 'diplomas/3813db51-3e9d-45d8-a5ab-da9958aedbfe_certificado.pdf', icon: '📊' },
+  { name: 'Seguridad Informática', file: 'diplomas/417bdd28-4a62-4748-8f54-339939e82d16_certificado.pdf', icon: '�' },
+  { name: 'Administración de Bases de Datos', file: 'diplomas/506332f7-0844-410f-8e55-29ff9f5131ce_certificado.pdf', icon: '�️' },
+  { name: 'Redes de Computadoras', file: 'diplomas/7961db43-1851-4069-85e1-24b6695be9d6_certificado.pdf', icon: '🌐' },
+  { name: 'Computación en la Nube', file: 'diplomas/7d9a4af1-49b3-4392-8de9-bcbb0c18d6dd_certificado (1).pdf', icon: '☁️' },
+  { name: 'Desarrollo Web Profesional', file: 'diplomas/Coursera KXVW4D27G45K.pdf', icon: '�' },
+  { name: 'Python', file: 'diplomas/fb10fc95-13ec-406e-8f93-6dae9e986f09_certificado.pdf', icon: '🐍' },
+  { name: 'JavaScript', file: 'diplomas/fede199b-3b0d-4216-9859-8163eb7da31b_certificado.pdf', icon: '⚡' },
+  { name: 'Microsoft Learn', file: 'diplomas/Logros - olverarodriguezcesar-5186 _ Microsoft Learn (1).pdf', icon: '📱' },
 ];
 
 function App() {
